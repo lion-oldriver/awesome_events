@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  owner_id: 
+  name: MyString
+  place: MyString
+  start_at: 2021-11-26 02:28:45
+  end_at: 2021-11-26 02:28:45
+  content: MyText
+
+two:
+  owner_id: 
+  name: MyString
+  place: MyString
+  start_at: 2021-11-26 02:28:45
+  end_at: 2021-11-26 02:28:45
+  content: MyText
