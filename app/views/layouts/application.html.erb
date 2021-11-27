@@ -19,6 +19,9 @@
           </li>
           <% if logged_in? %>
             <li class="nav-item">
+              <%= link_to "退会", new_retirement_path, class:"nav-link" %>
+            </li>
+            <li class="nav-item">
               <%= link_to "ログアウト", logout_path, class:"nav-link", method: :delete %>
             </li>
           <% else %>
