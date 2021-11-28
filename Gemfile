@@ -49,6 +49,11 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rails', require: false
+  gem 'brakeman'
+  gem 'rack-mini-profiler', require: false
 end
 
 group :test do
@@ -75,3 +80,4 @@ gem 'kaminari', '~> 1.2.0'
 gem 'elasticsearch-model', github: 'elastic/elasticsearch-rails', branch: '6.x'
 gem 'elasticsearch-rails', github: 'elastic/elasticsearch-rails', branch: '6.x'
 gem 'searchkick', '~> 4.3.0'
+gem 'skylight'
